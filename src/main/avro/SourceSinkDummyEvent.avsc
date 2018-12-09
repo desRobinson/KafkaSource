@@ -1,0 +1,11 @@
+{
+  "namespace": "io.quell.dummy.avro",
+  "type": "record",
+  "name": "SourceSinkDummyEvent",
+  "fields": [
+    {
+      "name": "HelloWorld",
+      "type": "string"
+    }
+  ]
+}

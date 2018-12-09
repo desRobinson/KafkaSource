@@ -1,0 +1,16 @@
+server.port: 8081
+
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          configuration:
+            security:
+              protocol: PLAINTEXT
+          zkNodes: 127.0.0.1
+          brokers: 127.0.0.1:9092
+      bindings:
+        output:
+          destination: trigger-topic
+          group: changeme

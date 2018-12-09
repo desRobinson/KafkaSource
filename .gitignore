@@ -1,0 +1,48 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Copied
+
+build/classes/
+build/jacoco/
+build/reports/
+build/resources/
+build/test-results/
+build/tmp/
+build/libs/
+ci/test.groovy
+.gradle/
+*.iml
+*.ipr
+*.iws
+.idea/
+classes/
+jmeter.log
+target/
+out/
+java_pid51699.hprof
+.java-version
+.DS_Store
